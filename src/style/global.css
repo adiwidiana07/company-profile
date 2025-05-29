@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* Untuk component */
+.custom-btn {
+ display: inline-block;
+ padding: 10px 20px;
+ background-color: #B3944F;
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+ background-color: #ba9c60;
+ color: white;
+}
+/* CSS untuk homepage */
+#homepage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%); /* Nilai bisa disesuaikan 0-100% */
+  z-index: -1;
+}
+
+#homepage img {
+ max-width: 90%;
+ height: auto;
+ transition: transform 0.3s ease;
+}
+
+#homepage img:hover {
+ transform: scale(1.03);
+}
+#homepage h2{
+    font-size: 2.2rem !important;
+}
+#homepage p{
+  color: #f7f7f7 !important;
+   font-size: 1.2rem !important;
+  line-height: 1.7!important;
+}
+#homepage h1{
+font-size: 3.5rem !important;
+}
+.carousel-item {
+  transition: transform 2s ease-in-out;
+}
+
+.product-image {
+  height: 300px; 
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: scale(1.03) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

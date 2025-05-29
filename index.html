@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Swarna Company Profile</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css"/>
+    <link rel="stylesheet" href="src/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/assets/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="shortcut icon" href="src/assets/images/img/SWARNA-logo no1.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm border-bottom" style="z-index: 999; background-color: #f7f7f7;" id="mainNavbar">
+  <div class="container">
+    <!-- Logo di sebelah kiri -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="src/assets/images/img/SWARNA-logo no1.png" alt="Logo SWARNA" width="40" height="40" class="me-2">
+      <div>
+        <h1 class="h5 mb-0 text-dark">SWARNA</h1>
+        <small class="text-muted">Ragam Gaya, Satu Makna</small>
+      </div>
+    </a>
+
+    <!-- Tombol toggle untuk mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu navigasi di tengah -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">  <!-- mx-auto untuk posisi tengah -->
+        <li class="nav-item"><a class="nav-link active text-dark" href="#">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#tentang">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#produk">Produk</a></li>
+        <li class="nav-item"><a class="nav-link text-dark" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Elemen kosong untuk balance (opsional) -->
+    <div class="d-none d-lg-block" style="width: 180px;"></div>
+  </div>
+</nav>
+<section id="homepage" class="d-flex align-items-center py-5 position-relative"  style="min-height: 100vh; overflow: hidden;">
+  <!-- Carousel Background -->
+  <div id="carouselBackground" class="carousel slide carousel-fade position-absolute top-0 start-0 w-100 h-100" data-bs-ride="carousel" style="z-index: -1;">
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <div class="w-100 h-100" style="background-image: url('src/assets/images/img/69b92916-3147-4f89-a754-0becaa6c7b4e.jpeg'); background-size: cover; background-position: center;"></div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="w-100 h-100" style="background-image: url('src/assets/images/img/cb7e947f-5890-4be7-837c-9bf6a3e62431.jpeg'); background-size: cover; background-position: center;"></div>
+      </div>
+      <div class="carousel-item h-100">
+        <div class="w-100 h-100" style="background-image: url('src/assets/images/img/Screenshot\ 2025-05-03\ 125647.jpg'); background-size: cover; background-position: center;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dark Overlay -->
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0,0,0,0.5); z-index: 0;"></div>
+
+  <!-- Content -->
+  <div class="container position-relative" data-aos="fade" style="z-index: 1;">
+    <div class="row align-items-center">
+      <div class="col-12 text-center text-md-start" style="padding: 2rem; border-radius: 10px;">
+        <h1 class="  fw-bold" style="color: #B3944F;" >RAGAM GAYA</h1>
+        <h2 class=" fw-bold" style="color: #f7f7f7;">SATU MAKNA</h2>
+        <p class="mt-1 lead text-white">
+          SWARNA adalah perwujudan dari ragam itu. Sebuah wujud <br>
+          yang merayakan warna-warni budaya <br>
+          dalam balutan modernitas anak muda.
+        </p>
+        <a href="#produk" class="custom-btn">
+          Lihat Produk <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="tentang" class="tentang-index py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="src/assets/images/img/SWARNA.png" alt="Ilustrasi SWARNA" class="img-fluid rounded shadow-sm" data-aos="fade-right">
+      </div>
+      <div class="col-lg-6" id="tentang">
+        <h2 class="fw-bold text-dark mb-3" data-aos="fade-up"> <span style="color: #B3944F;">TENTANG </span>SWARNA</h2>
+        <p class="fs-5 text-muted" data-aos="fade-up">
+          <span class="text-dark fw-semibold">SWARNA</span> adalah representasi dari <span class=fw-semibold">modernitas</span> yang berpadu dengan
+          <span class="fw-semibold">akar budaya</span>. Nama kami terinspirasi dari kata <em>“sewarna”</em> — lambang kekompakan, dan
+          <em>“swarna”</em> — yang berarti emas, simbol keunikan setiap karya kami.
+        </p>
+        <p class="fs-5 text-muted" data-aos="fade-up">
+          Kami percaya bahwa <span class="fw-semibold text-dark">fashion</span> adalah identitas. Setiap desain kami membawa nilai, cerita, dan karakter yang membuat kamu tampil percaya diri sekaligus bangga dengan asal usulmu.
+        </p>
+        <blockquote class="blockquote mt-4 ps-3 border-start border-3 border-dark" data-aos="fade-up">
+          <p class="mb-0 fst-italic text-dark">"Budaya bukanlah masa lalu, melainkan cara kita melangkah ke masa depan."</p>
+          <footer class="blockquote-footer mt-1">Tim SWARNA</footer>
+                  <a href="history.html" class="custom-btn">
+          Pelajari <i class="fas fa-arrow-right"></i>
+        </a>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="produk" class="produk-index py-5">
+    <div class="container">
+      <h2 class="fw-bold text-dark mb-3" data-aos="fade-up"> <span style="color: #B3944F;">PRODUK </span>SWARNA</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm  hover-card" data-aos="fade-up">
+            <img src="src/assets/images/img/model 1.png" class="card-img-top product-image " alt="Produk 1">
+            <div class="card-body">
+              <h5 class="card-title">Produk 1</h5>
+              <p class="card-text">Deskripsi produk 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm  hover-card" data-aos="fade-up">
+            <img src="src/assets/images/img/model 1.png" class="card-img-top product-image " alt="Produk 3">
+            <div class="card-body">
+              <h5 class="card-title">Produk 2</h5>
+              <p class="card-text">Deskripsi produk 2.</p>
+            </div>
+          </div>
+        </div>
+               <div class="col-md-4 mb-4">
+          <div class="card shadow-sm  hover-card" data-aos="fade-up">
+            <img src="src/assets/images/img/Totebag.jpg" class="card-img-top product-image " alt="Produk 3">
+            <div class="card-body">
+              <h5 class="card-title">Produk 3</h5>
+              <p class="card-text">Deskripsi produk 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="kontak" class="kontak-index py-5">
+ <div class="container">
+  <h2 class="fw-bold text-dark mb-3" data-aos="fade-up">
+   <span style="color: #B3944F;">KONTAK </span>SWARNA
+  </h2>
+  <p class="fs-5 text-muted" data-aos="fade-up">
+   Jika Anda memiliki pertanyaan atau ingin berkolaborasi, silahkan hubungi kami melalui formulir di bawah ini:
+  </p>
+  <div class="row">
+   <!-- Informasi Kontak -->
+   <div class="col-md-6 mb-4">
+    <div class="card shadow-sm h-100" data-aos="fade-up">
+     <div class="card-body">
+      <h5 class="card-title">Alamat</h5>
+      <p class="card-text">Jl. Raya No. 123, Kota Gianyar</p>
+      <h5 class="card-title mt-4">Telepon</h5>
+      <p class="card-text">+62 123-456-7890</p>
+      <h5 class="card-title mt-4">Email</h5>
+      <p class="card-text">info@swarna.co.id</p>
+     </div>
+    </div>
+   </div>
+
+   <!-- Form Kontak -->
+   <div class="col-md-6 mb-4">
+    <div class="card shadow-sm h-100" data-aos="fade-up">
+     <div class="card-body">
+      <h5 class="card-title">Form Kontak</h5>
+      <form>
+       <div class="mb-3">
+        <label for="nama" class="form-label">Nama</label>
+        <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required>
+       </div>
+       <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+       </div>
+       <div class="mb-3">
+        <label for="pesan" class="form-label">Pesan</label>
+        <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini..." required></textarea>
+       </div>
+       <button type="submit" class="btn btn-warning text-white">Kirim</button>
+      </form>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+    <script src="src/assets/fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <script src="src/assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html> 
