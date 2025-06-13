@@ -183,7 +183,7 @@
         <label for="pesan" class="form-label">Pesan</label>
         <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini..." required></textarea>
        </div>
-       <button type="submit" class="btn btn-warning text-white">Kirim</button>
+       <button type="submit" class="custom-btn text-white">Kirim</button>
       </form>
      </div>
     </div>
@@ -247,7 +247,11 @@
     <script src="src/assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+    AOS.init({
+    once: true,
+    duration: 1000,
+    easing: 'ease-in-out',
+  });
     </script>
 </body>
 </html> 
