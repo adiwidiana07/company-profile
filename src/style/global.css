@@ -44,15 +44,15 @@
  transform: scale(1.03);
 }
 #homepage h2{
-    font-size: 2.2rem !important;
+    font-size: 3.2rem !important;
 }
 #homepage p{
   color: #f7f7f7 !important;
-   font-size: 1.2rem !important;
+   font-size: 1.5rem !important;
   line-height: 1.7!important;
 }
 #homepage h1{
-font-size: 3.5rem !important;
+font-size: 4.5rem !important;
 }
 .carousel-item {
   transition: transform 2s ease-in-out;
